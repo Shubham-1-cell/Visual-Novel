@@ -813,7 +813,7 @@ MonoBehaviour:
   nameColor: {r: 0.46226418, g: 0.26383945, b: 0.46199188, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 111576af56097b34da71af2688db8ef6, type: 3}
+  - {fileID: 21300000, guid: ae8c60f3bbe04ae42895bf240af75ba7, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 0}
   description: 
@@ -1384,7 +1384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1907768952}
 --- !u!4 &1466642599
 Transform:
   m_ObjectHideFlags: 1
@@ -1613,7 +1613,6 @@ GameObject:
   - component: {fileID: 1907768981}
   - component: {fileID: 1907768980}
   - component: {fileID: 1907768979}
-  - component: {fileID: 1907768978}
   - component: {fileID: 1907768977}
   - component: {fileID: 1907768976}
   - component: {fileID: 1907768975}
@@ -1636,6 +1635,7 @@ GameObject:
   - component: {fileID: 1907768996}
   - component: {fileID: 1907768997}
   - component: {fileID: 1907768995}
+  - component: {fileID: 1907768978}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1714,14 +1714,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105.36201
     y: 186.51224
-    width: 105.68181
+    width: 106.701035
     height: 40
   tint: {r: 0.28460082, g: 0.18823528, b: 0.87058824, a: 1}
   useCustomTint: 1
   itemId: 0
   blockName: Welcome!
   description: 
-  eventHandler: {fileID: 1907768978}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1907768950}
   - {fileID: 1907768954}
@@ -1744,11 +1744,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -146.5567, y: -12.430491}
+  scrollPos: {x: -71.565506, y: 3.5983276}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8800001
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1758,7 +1758,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1907768964}
   selectedCommands:
-  - {fileID: 1907768962}
+  - {fileID: 1907768970}
   variables: []
   description: 
   stepPause: 0
@@ -2062,15 +2062,15 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 328.86365
-    y: 69.51053
-    width: 85.227264
+    y: 70.64689
+    width: 86.08247
     height: 40
   tint: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
   useCustomTint: 1
   itemId: 29
   blockName: Prison
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1907768978}
   commandList:
   - {fileID: 1907768974}
   - {fileID: 1907768995}
@@ -2142,7 +2142,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.80487
     y: 305.244
-    width: 96.590904
+    width: 98.453606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2261,7 +2261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 452.30518
     y: 121.3109
-    width: 105.68181
+    width: 107.73196
     height: 40
   tint: {r: 0.23231201, g: 0.13710395, b: 0.3679245, a: 1}
   useCustomTint: 1
@@ -2312,7 +2312,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 739.3205
     y: 66.451324
-    width: 114.77272
+    width: 115.97938
     height: 40
   tint: {r: 0.8862746, g: 0.8862746, b: 0.8862746, a: 1}
   useCustomTint: 1
@@ -2363,7 +2363,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 593.5
     y: 66.5
-    width: 114.77272
+    width: 115.97938
     height: 40
   tint: {r: 0.23529413, g: 0.23529413, b: 0.23529413, a: 1}
   useCustomTint: 1
@@ -2390,7 +2390,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 449.5
     y: 66.5
-    width: 118.18181
+    width: 120.10309
     height: 40
   tint: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
   useCustomTint: 1
@@ -2430,7 +2430,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1907768978
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2440,7 +2440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1907768951}
+  parentBlock: {fileID: 1907768964}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
 --- !u!114 &1907768979
@@ -2627,7 +2627,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 964748743}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 111576af56097b34da71af2688db8ef6, type: 3}
+  portrait: {fileID: 21300000, guid: ae8c60f3bbe04ae42895bf240af75ba7, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 2038351064}
