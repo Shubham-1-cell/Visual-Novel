@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Bell
-  nameColor: {r: 0, g: 0.5921569, b: 0.8018868, a: 1}
+  nameColor: {r: 0.12019401, g: 0.54098433, b: 0.6886792, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Governor
-  nameColor: {r: 1, g: 0.6780822, b: 0, a: 1}
+  nameColor: {r: 0.3019758, g: 0.30414045, b: 0.735849, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: ad67be9227b2da94992018cc0ca8cd04, type: 3}
@@ -519,7 +519,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.572599
+  orthographic size: 2.121848
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1149,7 +1149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Secretary
-  nameColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  nameColor: {r: 0.051886797, g: 0.5404715, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Carter
-  nameColor: {r: 1, g: 0, b: 0.38102198, a: 1}
+  nameColor: {r: 0.48865438, g: 0.25, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -1635,7 +1635,27 @@ GameObject:
   - component: {fileID: 1907768996}
   - component: {fileID: 1907768997}
   - component: {fileID: 1907768995}
+  - component: {fileID: 1907769019}
+  - component: {fileID: 1907769009}
+  - component: {fileID: 1907769008}
+  - component: {fileID: 1907769007}
+  - component: {fileID: 1907769006}
+  - component: {fileID: 1907769004}
+  - component: {fileID: 1907769003}
+  - component: {fileID: 1907769002}
+  - component: {fileID: 1907769001}
+  - component: {fileID: 1907769000}
+  - component: {fileID: 1907768999}
+  - component: {fileID: 1907769020}
   - component: {fileID: 1907768978}
+  - component: {fileID: 1907769015}
+  - component: {fileID: 1907769014}
+  - component: {fileID: 1907769013}
+  - component: {fileID: 1907769012}
+  - component: {fileID: 1907769011}
+  - component: {fileID: 1907769010}
+  - component: {fileID: 1907769005}
+  - component: {fileID: 1907768998}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1714,14 +1734,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105.36201
     y: 186.51224
-    width: 106.701035
+    width: 102.94877
     height: 40
   tint: {r: 0.28460082, g: 0.18823528, b: 0.87058824, a: 1}
   useCustomTint: 1
   itemId: 0
   blockName: Welcome!
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1907768978}
   commandList:
   - {fileID: 1907768950}
   - {fileID: 1907768954}
@@ -1744,11 +1764,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -71.565506, y: 3.5983276}
+  scrollPos: {x: -44.74035, y: 72.314224}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.97
+  zoom: 0.7743334
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1756,9 +1776,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1907768964}
-  selectedCommands:
-  - {fileID: 1907768970}
+  - {fileID: 1907768998}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2001,7 +2020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: 'All precautions have been taken to see to it that the
+  storyText: '{i}All precautions have been taken to see to it that the
 
     examination
     arranged in the prison for Evans does not
@@ -2009,7 +2028,7 @@ MonoBehaviour:
     provide him with any means of
     escape.
 
-'
+    {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2061,19 +2080,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 328.86365
-    y: 70.64689
-    width: 86.08247
+    x: 327.83273
+    y: 81.8502
+    width: 83.57727
     height: 40
-  tint: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+  tint: {r: 0.23529413, g: 0.23529413, b: 0.23529413, a: 1}
   useCustomTint: 1
   itemId: 29
   blockName: Prison
   description: 
-  eventHandler: {fileID: 1907768978}
+  eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1907768974}
   - {fileID: 1907768995}
+  - {fileID: 1907768974}
   - {fileID: 1907768956}
   - {fileID: 1907768962}
   - {fileID: 1907768985}
@@ -2091,11 +2110,26 @@ MonoBehaviour:
   - {fileID: 1907768994}
   - {fileID: 1907768988}
   - {fileID: 1907768989}
+  - {fileID: 1907769020}
   - {fileID: 1907768990}
+  - {fileID: 1907769019}
+  - {fileID: 1907768999}
+  - {fileID: 1907769000}
+  - {fileID: 1907769001}
+  - {fileID: 1907769002}
+  - {fileID: 1907769003}
+  - {fileID: 1907769004}
+  - {fileID: 1907769006}
+  - {fileID: 1907769007}
+  - {fileID: 1907769008}
+  - {fileID: 1907769009}
   - {fileID: 1907768987}
   - {fileID: 1907768984}
   - {fileID: 1907768986}
+  - {fileID: 1907769010}
   - {fileID: 1907768977}
+  - {fileID: 1907769005}
+  - {fileID: 1907769015}
   suppressAllAutoSelections: 0
 --- !u!114 &1907768965
 MonoBehaviour:
@@ -2142,7 +2176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.80487
     y: 305.244
-    width: 98.453606
+    width: 93.90874
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2259,9 +2293,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 452.30518
-    y: 121.3109
-    width: 107.73196
+    x: 295.4588
+    y: 187.28598
+    width: 102.94877
     height: 40
   tint: {r: 0.23231201, g: 0.13710395, b: 0.3679245, a: 1}
   useCustomTint: 1
@@ -2310,9 +2344,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 739.3205
-    y: 66.451324
-    width: 115.97938
+    x: 732.7693
+    y: 310.95047
+    width: 109.40593
     height: 40
   tint: {r: 0.8862746, g: 0.8862746, b: 0.8862746, a: 1}
   useCustomTint: 1
@@ -2361,9 +2395,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 593.5
-    y: 66.5
-    width: 115.97938
+    x: 518.98315
+    y: 308.1074
+    width: 111.9888
     height: 40
   tint: {r: 0.23529413, g: 0.23529413, b: 0.23529413, a: 1}
   useCustomTint: 1
@@ -2388,11 +2422,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 449.5
-    y: 66.5
-    width: 120.10309
+    x: 454.77606
+    y: 134.44829
+    width: 114.57167
     height: 40
-  tint: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
+  tint: {r: 0.23529413, g: 0.23529413, b: 0.23529413, a: 1}
   useCustomTint: 1
   itemId: 45
   blockName: Evans's Cell
@@ -2402,6 +2436,7 @@ MonoBehaviour:
   - {fileID: 1907768963}
   - {fileID: 1907768996}
   - {fileID: 1907768997}
+  - {fileID: 1907769012}
   suppressAllAutoSelections: 0
 --- !u!114 &1907768977
 MonoBehaviour:
@@ -2417,7 +2452,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  text: Option Text
+  text: 'This seems fishy......
+
+    The secretary is on to something.'
   description: 
   targetBlock: {fileID: 1907768976}
   hideIfVisited: 0
@@ -2430,7 +2467,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1907768978
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2440,7 +2477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1907768964}
+  parentBlock: {fileID: 1907768951}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
 --- !u!114 &1907768979
@@ -2713,11 +2750,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: "Just one thing, Governor. He\u2019s not a violent sort of\r\nfellow,
-    is he? I don\u2019t want to know his criminal record or\r\nanything like that,
-    but \u2026\u2026\u2026..\r\n"
+  storyText: 'No!
+
+'
   description: 
-  character: {fileID: 964748743}
+  character: {fileID: 413918705}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2742,11 +2779,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: "Just one thing, Governor. He\u2019s not a violent sort of\r\nfellow,
-    is he? I don\u2019t want to know his criminal record or\r\nanything like that,
-    but \u2026\u2026\u2026..\r\n"
+  storyText: "There\u2019s no record of violence. Quite a pleasant\r\nsort of chap,
+    they tell me. Bit of a card, really. One of the\r\nstars at the Christmas concert. "
   description: 
-  character: {fileID: 964748743}
+  character: {fileID: 413918705}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2771,11 +2807,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: "Just one thing, Governor. He\u2019s not a violent sort of\r\nfellow,
-    is he? I don\u2019t want to know his criminal record or\r\nanything like that,
-    but \u2026\u2026\u2026..\r\n"
+  storyText: "The Governor was tempted to\r\nadd something else, but he thought better
+    of it. He\u2019d look\r\nafter that particular side of things himself.\r\n"
   description: 
-  character: {fileID: 964748743}
+  character: {fileID: 1717146921}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2855,7 +2890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: James Roderick Evans
+  storyText: '''James Roderick Evans!'''
   description: 
   character: {fileID: 413918705}
   portrait: {fileID: 0}
@@ -2911,7 +2946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: f656398a1d8854149bf8bdb8b8227079, type: 3}
+  musicClip: {fileID: 8300000, guid: 630bb467c42ec4fe289f09acd31e2929, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1
@@ -2962,6 +2997,540 @@ MonoBehaviour:
   storyText: Hlo
   description: 
   character: {fileID: 266166597}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907768998
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 457.99878
+    y: 25.834639
+    width: 78.41153
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 98
+  blockName: End 1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1907768999
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  indentLevel: 0
+  storyText: No problem.
+  description: 
+  character: {fileID: 413918705}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769000
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  indentLevel: 0
+  storyText: "He\u2019s in a cell on his own. If you\u2019ve no\r\nobjections, he
+    can sit the exam in there.\r\n"
+  description: 
+  character: {fileID: 413918705}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769001
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 85
+  indentLevel: 0
+  storyText: '{i}The Secretary was taken aback by the sheer haste shown by the Governor!{/i}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769002
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 84
+  indentLevel: 0
+  storyText: "That\u2019s fine."
+  description: 
+  character: {fileID: 964748743}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769003
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 83
+  indentLevel: 0
+  storyText: "And we could easily get one of the parsons from\r\nSt. Mary Mags to
+    invigilate, if that\u2019s \u2014 \r\n"
+  description: 
+  character: {fileID: 413918705}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769004
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 82
+  indentLevel: 0
+  storyText: "Fine, yes. They seem to have a lot of parsons there,\r\ndon\u2019t
+    they?\r\n"
+  description: 
+  character: {fileID: 964748743}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769005
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 97
+  indentLevel: 0
+  text: This seems fine so far.
+  description: 
+  targetBlock: {fileID: 1907768998}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1907769006
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 80
+  indentLevel: 0
+  storyText: '{i}A chuckle was heard in the halls of the prision.{/i}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769007
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 79
+  indentLevel: 0
+  storyText: "At least there\u2019s one\r\nthing. You shouldn\u2019t have much trouble
+    keeping him\r\nincommunicado, should you?\r\n"
+  description: 
+  character: {fileID: 964748743}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769008
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 78
+  indentLevel: 0
+  storyText: "There\u2019s no record of violence. Quite a pleasant\r\nsort of chap,
+    they tell me. Bit of a card, really. One of the\r\nstars at the Christmas concert.
+    Imitations, you know the\r\nsort of thing: Mike Yarwood stuff. No, he\u2019s
+    just a congenital\r\nkleptomaniac, that\u2019s all\r."
+  description: 
+  character: {fileID: 413918705}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769009
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  indentLevel: 0
+  storyText: 'The Governor chuckled politely once more, reiterated
+
+    his thanks,
+    and slowly cradled the phone.
+
+    
+
+'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769010
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 96
+  indentLevel: 0
+  storyText: Say player, what do you think about this?
+  description: 
+  character: {fileID: 1717146921}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769011
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 95
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 1907769013}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1907769012
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 94
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 1907769014}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1907769013
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 776.0773
+    y: 260.02408
+    width: 131.36029
+    height: 40
+  tint: {r: 0.23529413, g: 0.23529413, b: 0.23529413, a: 1}
+  useCustomTint: 1
+  itemId: 93
+  blockName: Evan's Cell S-2
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1907769014
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 616.031
+    y: 197.14586
+    width: 114.57167
+    height: 40
+  tint: {r: 0.23529413, g: 0.23529413, b: 0.23529413, a: 1}
+  useCustomTint: 1
+  itemId: 92
+  blockName: Somewhere
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1907769011}
+  suppressAllAutoSelections: 0
+--- !u!114 &1907769015
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  indentLevel: 0
+--- !u!114 &1907769019
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  indentLevel: 0
+  storyText: "Presumably, you can arrange a\r\nroom where \u2014 \r\u2014 \r\n\n"
+  description: 
+  character: {fileID: 964748743}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1907769020
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907768948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 89
+  indentLevel: 0
+  storyText: "Imitations, you know the\r\nsort of thing: Mike Yarwood stuff. No,
+    he\u2019s just a congenital\r\nkleptomaniac, that\u2019s all\r."
+  description: 
+  character: {fileID: 413918705}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3056,7 +3625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Jakson
-  nameColor: {r: 0.9245283, g: 0.68235296, b: 0, a: 1}
+  nameColor: {r: 0.24107401, g: 0.23064259, b: 0.6886792, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
